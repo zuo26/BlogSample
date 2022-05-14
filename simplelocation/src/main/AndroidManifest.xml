@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mjzuo.location" >
+
+    <!--定位-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--允许读取电话状态SIM的权限-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</manifest>

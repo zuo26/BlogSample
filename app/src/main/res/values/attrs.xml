@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NestedViewGroup">
+        <attr name="header_id" format="string"/>
+        <attr name="target_id" format="string"/>
+        <attr name="inn_id" format="string"/>
+        <attr name="header_init_top" format="integer"/>
+        <attr name="target_init_bottom" format="integer"/>
+    </declare-styleable>
+</resources>

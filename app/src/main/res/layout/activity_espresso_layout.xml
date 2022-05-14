@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    >
+
+  <Button
+      android:id="@+id/btn_test1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:text="@string/txt_test"
+      />
+
+    <TextView
+        android:id="@+id/tv_show_test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="12dp"
+        android:textAllCaps="false"
+        android:layout_toEndOf="@id/btn_test1"
+        android:layout_alignTop="@id/btn_test1"
+        android:layout_alignBottom="@id/btn_test1"
+        />
+
+</RelativeLayout>

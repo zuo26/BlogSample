@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_bind_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_bind_service"
+            android:onClick="btnBindService"
+            />
+
+        <Button
+            android:id="@+id/btn_unbind_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_unbind_service"
+            android:onClick="btnUnbindService"
+            />
+
+        <Button
+            android:id="@+id/btn_pull_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_pull"
+            android:onClick="btnPullData"
+            />
+
+        <Button
+            android:id="@+id/btn_push_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_push"
+            android:onClick="btnPushData"
+            />
+    </LinearLayout>
+
+    <fragment
+        android:name="com.blog.support.logger.LogFragment"
+        android:id="@+id/log_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

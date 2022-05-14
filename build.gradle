@@ -1,0 +1,34 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlinVersion = '1.6.10'
+    ext.agpVersion = '7.2.0'
+    ext.core_ktx_version = '1.7.0'
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$agpVersion"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    extJUnitVersion = "1.1.4-alpha06"
+    runnerVersion = "1.5.0-alpha03"
+    espressoVersion = "3.5.0-alpha05"
+    coreVersion = "1.4.1-alpha06"
+}

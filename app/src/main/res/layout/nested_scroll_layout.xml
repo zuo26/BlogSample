@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:didi="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.blog.a.nested.NestedViewGroup
+        android:id="@+id/dd_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        didi:header_id="@+id/t_map_view"
+        didi:target_id="@+id/target_layout"
+        didi:inn_id="@+id/inner_rv"
+        didi:header_init_top="0"
+        didi:target_init_bottom="250">
+
+        <com.tencent.tencentmap.mapsdk.maps.MapView
+            android:id="@+id/t_map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/target_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/inner_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </com.blog.a.nested.NestedViewGroup>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        didi:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+</RelativeLayout>
