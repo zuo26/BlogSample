@@ -19,7 +19,7 @@ import com.blog.a.nested.NestedScrollActivity
 import com.blog.a.transition.IndexActivity
 import com.blog.demo38.DexLoaderActivity
 import com.blog.demo39.BlogServiceActivity
-import com.blog.demo40.EspressoUiTest
+import com.blog.demo40.EspressoUiActivity
 
 class IndexActivity : BaseActivity(), SimpleAdapter.ViewHolderListener {
 
@@ -34,7 +34,11 @@ class IndexActivity : BaseActivity(), SimpleAdapter.ViewHolderListener {
     }
 
     override fun onItemClicked(view: View?, adapterPosition: Int) {
-        val intent = Intent(this, CLASS[adapterPosition])
+        val intent = Intent(this, CLASS[adapterPosition]).also {
+            if (EspressoUiActivity::class.java == CLASS[adapterPosition]) {
+                it.putExtra("tag", "zuo")
+            }
+        }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
         } else {
@@ -68,5 +72,5 @@ val CLASS = arrayOf(
     JNISampleActivity::class.java,
     DexLoaderActivity::class.java,
     BlogServiceActivity::class.java,
-    EspressoUiTest::class.java
+    EspressoUiActivity::class.java
 )

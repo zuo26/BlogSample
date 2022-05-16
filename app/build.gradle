@@ -65,6 +65,8 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit-ktx:$extJUnitVersion"
     androidTestImplementation "androidx.test:core-ktx:$coreVersion"
     androidTestImplementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:' + espressoVersion
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:' + espressoVersion
 
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'

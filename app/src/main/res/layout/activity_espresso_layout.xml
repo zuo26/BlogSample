@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="12dp"
+    android:id="@+id/base_relative_layout"
     >
 
   <Button
@@ -14,7 +15,7 @@
       />
 
     <TextView
-        android:id="@+id/tv_show_test1"
+        android:id="@+id/tv_test1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -24,5 +25,114 @@
         android:layout_alignTop="@id/btn_test1"
         android:layout_alignBottom="@id/btn_test1"
         />
+
+  <ListView
+      android:id="@+id/listview"
+      android:layout_width="120dp"
+      android:layout_height="120dp"
+      android:layout_below="@id/btn_test1"/>
+
+  <TextView
+      android:id="@+id/tv_test2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_marginStart="12dp"
+      android:textAllCaps="false"
+      android:layout_toEndOf="@id/listview"
+      android:layout_alignTop="@id/listview"
+      android:layout_alignBottom="@id/listview"/>
+
+  <Button
+      android:id="@+id/btn_intent"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/listview"
+      android:text="@string/txt_intent"
+      android:textAllCaps="false"
+      />
+
+  <TextView
+      android:id="@+id/tv_intent"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_marginStart="12dp"
+      android:textAllCaps="false"
+      android:layout_toEndOf="@id/btn_intent"
+      android:layout_alignTop="@id/btn_intent"
+      android:layout_alignBottom="@id/btn_intent"
+      />
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recycler_view"
+      android:layout_width="120dp"
+      android:layout_height="65dp"
+      android:layout_below="@id/btn_intent"
+      />
+
+  <EditText
+      android:id="@+id/et_input"
+      android:layout_toEndOf="@id/tv_test1"
+      android:layout_marginStart="12dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="@string/txt_input"
+      android:autofillHints="@string/txt_input"
+      android:inputType="text" />
+
+  <Button
+      android:id="@+id/btn_visible"
+      android:layout_below="@id/recycler_view"
+      android:layout_marginTop="12dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/txt_visible"
+      android:textAllCaps="false"
+      />
+
+  <Button
+      android:id="@+id/btn_remove"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="12dp"
+      android:layout_below="@id/recycler_view"
+      android:layout_toEndOf="@id/btn_visible"
+      android:text="@string/txt_remove"
+      android:textAllCaps="false"
+      />
+
+  <Button
+      android:id="@+id/btn_open_dialog"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btn_visible"
+      android:text="@string/txt_open_dialog"
+      android:textAllCaps="false"/>
+
+  <TextView
+      android:id="@+id/tv_show_dialog_item"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btn_visible"
+      android:layout_toEndOf="@id/btn_open_dialog"
+      android:layout_marginStart="12dp"
+      android:gravity="center"
+      android:layout_alignBottom="@id/btn_open_dialog"
+      android:layout_alignTop="@id/btn_open_dialog"
+      android:text="@string/txt_show_dialog_item"
+      android:textAllCaps="false"
+      />
+
+  <AutoCompleteTextView
+      android:id="@+id/auto_complete_text_view"
+      android:layout_below="@id/et_input"
+      android:layout_toEndOf="@id/tv_test1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="16dp"
+      android:completionThreshold="1"
+      android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

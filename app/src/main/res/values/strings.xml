@@ -47,6 +47,35 @@
     <string name="txt_push">PUSH</string>
 
     <string name="txt_hello_world">hello world</string>
+    <string name="txt_simple">simple txt</string>
     <string name="txt_espresso">espresso</string>
     <string name="txt_test">test-></string>
+    <string name="txt_intent">To Intent</string>
+    <string name="middle">middle</string>
+    <string name="txt_input">please input</string>
+    <string name="txt_visible">visibility</string>
+    <string name="txt_remove">remove</string>
+    <string name="txt_open_dialog">open dialog</string>
+    <string name="txt_show_dialog_item">dialog item</string>
+
+    <string-array name="bodies_of_water">
+        <item>Pacific Ocean</item>
+        <item>Atlantic Ocean</item>
+        <item>Indian Ocean</item>
+        <item>Southern Ocean</item>
+        <item>Arctic Ocean</item>
+        <item>Mediterranean Sea</item>
+        <item>Caribbean Sea</item>
+        <item>South China Sea</item>
+        <item>Bering Sea</item>
+        <item>Gulf of Mexico</item>
+        <item>Okhotsk Sea</item>
+        <item>East China Sea</item>
+        <item>Hudson Bay</item>
+        <item>Japan Sea</item>
+        <item>Andaman Sea</item>
+        <item>North Sea</item>
+        <item>Red Sea</item>
+        <item>Baltic Sea</item>
+    </string-array>
 </resources>

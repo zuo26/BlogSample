@@ -50,8 +50,16 @@
             android:exported="false"/>
         <activity android:name="com.blog.demo38.DexLoaderActivity"
             android:exported="false"/>
-        <activity android:name="com.blog.demo40.EspressoUiTest"
+        <activity android:name="com.blog.demo40.EspressoUiActivity"
             android:exported="false"/>
+        <activity android:name="com.blog.demo40.EspressoUiActivity2"
+            android:exported="false"
+            >
+            <intent-filter>
+                <action android:name="custom.intent.action.demo40"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
     </application>
 
