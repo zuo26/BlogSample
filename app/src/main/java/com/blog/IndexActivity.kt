@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.blog.a.BaseActivity
@@ -45,13 +46,18 @@ class IndexActivity : BaseActivity(), SimpleAdapter.ViewHolderListener {
             startActivity(intent)
         }
     }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        Toast.makeText(this, getString(R.string.txt_elastic_recycler_view), Toast.LENGTH_SHORT).show()
+    }
 }
 
 val ITEMS = arrayOf(
     "简单定位",
     "demo10: nested scroll example",
     "demo11: ViewDragHelper",
-    "回弹效果RecyclerView",
+    "demo12: elastic RecyclerView",
     "矢量可绘制对象",
     "Activity过渡动画",
     "Lottie动画",

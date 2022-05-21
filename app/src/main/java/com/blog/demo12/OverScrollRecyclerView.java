@@ -1,4 +1,4 @@
-package com.blog.a.recycler;
+package com.blog.demo12;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
