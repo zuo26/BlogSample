@@ -30,7 +30,7 @@
         </activity>
         <activity android:name="com.blog.demo10.NestedScrollActivity"
             android:exported="false"/>
-        <activity android:name=".drag.ViewDragActivity"
+        <activity android:name="com.blog.demo11.ViewDragActivity"
             android:exported="false"/>
         <activity android:name=".anim.VectorAnimActivity"
             android:exported="false"/>

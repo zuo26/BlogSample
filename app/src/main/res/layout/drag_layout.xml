@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.blog.a.drag.DragViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+<com.blog.demo11.DragViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
@@ -7,10 +7,11 @@
     <TextView
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:text="可拖拽"
+        android:text="@string/txt_drag"
         android:gravity="center"
         android:textColor="#fff"
         android:background="#6495ED"
+        android:layout_margin="24dp"
         />
 
-</com.blog.a.drag.DragViewGroup>
+</com.blog.demo11.DragViewGroup>

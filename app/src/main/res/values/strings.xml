@@ -36,6 +36,7 @@
     <string name="errMsg">code: %1$f errMsg: %2$s</string>
 
     <string name="txt_nested_scroll_bg">背景View</string>
+    <string name="txt_drag">可拖拽</string>
 
 
     <string name="txt_dex_class_loader">DexClassLoader</string>
