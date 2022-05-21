@@ -1,4 +1,4 @@
-package com.blog.a.nested;
+package com.blog.demo10;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -23,11 +23,11 @@ import com.blog.a.utils.CommonUtils;
 public class NestedViewGroup extends ViewGroup {
 
     // VIEW初始距离和当前实际距离
-    private int mHeaderInitTop;
-    private int mTargetInitTop;
+    private final int mHeaderInitTop;
+    private final int mTargetInitTop;
     private int mHeaderCurrTop;
     private int mTargetCurrTop;
-    private int mTargetInitBottom;
+    private final int mTargetInitBottom;
 
     // VIEW
     private View mHeaderView;
@@ -35,15 +35,15 @@ public class NestedViewGroup extends ViewGroup {
     private View mInnerScrollView;
 
     // VIEW ID
-    private int mHeaderResId;
-    private int mTargetResId;
-    private int mInnerScrollId;
+    private final int mHeaderResId;
+    private final int mTargetResId;
+    private final int mInnerScrollId;
 
     // 能识别的最小滑动距离
-    private int mTouchSlop;
+    private final int mTouchSlop;
     // 投掷的最大速度，单位：像素/秒。
-    private int maxFlingVelocity;
-    private int minFlingVelocity;
+    private final int maxFlingVelocity;
+    private final int minFlingVelocity;
 
     // 拖拽是否拦截事件
     private boolean mIsDragging;
@@ -55,7 +55,7 @@ public class NestedViewGroup extends ViewGroup {
     private float mLastMotionY;
 
     // 弹性滑动
-    private Scroller mScroller;
+    private final Scroller mScroller;
     // 速度追踪
     private VelocityTracker mVelocityTracker;
     // 500ms内比例的像素数
@@ -351,7 +351,7 @@ public class NestedViewGroup extends ViewGroup {
             if (android.os.Build.VERSION.SDK_INT < 14) {
                 RecyclerView.LayoutManager lm = rv.getLayoutManager();
                 boolean isFirstVisible;
-                if (lm != null && lm instanceof LinearLayoutManager) {
+                if (lm instanceof LinearLayoutManager) {
                     isFirstVisible = ((LinearLayoutManager)lm)
                             .findFirstVisibleItemPosition() > 0;
                     return rv.getChildCount() > 0

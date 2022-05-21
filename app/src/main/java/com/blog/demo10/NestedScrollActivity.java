@@ -1,4 +1,4 @@
-package com.blog.a.nested;
+package com.blog.demo10;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -12,19 +12,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.blog.a.BaseActivity;
-import com.blog.a.BaseDensityActivity;
 import com.blog.a.R;
 import com.blog.a.SimpleAdapter;
 import com.blog.a.utils.CommonUtils;
-import com.tencent.tencentmap.mapsdk.maps.MapView;
 
 /**
  * 嵌套滑动效果类。
  */
 public class NestedScrollActivity extends BaseActivity {
     static final String LOG_TAG = "tag";
-    // 腾讯地图
-    private MapView mapView;
     // 标题栏
     private Toolbar myToolbar;
 
@@ -34,7 +30,6 @@ public class NestedScrollActivity extends BaseActivity {
         // 无标题栏情况
         requestNoTitle(this);
         setContentView(R.layout.nested_scroll_layout);
-        mapView = findViewById(R.id.t_map_view);
         myToolbar = findViewById(R.id.my_toolbar);
         myToolbar.setTitle("嵌套滑动Toolbar");
         myToolbar.getBackground().setAlpha(0);
@@ -84,49 +79,6 @@ public class NestedScrollActivity extends BaseActivity {
             examples[i] = "第" + i + "项";
         }
         return examples;
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if (null != mapView)
-            mapView.onResume();
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        if (null != mapView) {
-            mapView.onRestart();
-        }
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        if (null != mapView)
-            mapView.onStart();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        if (null != mapView)
-            mapView.onPause();
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        if (null != mapView)
-            mapView.onStop();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if(null != mapView)
-            mapView.onDestroy();
     }
 
 }

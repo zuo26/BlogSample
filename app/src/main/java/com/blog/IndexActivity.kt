@@ -15,7 +15,7 @@ import com.blog.a.anim.VectorAnimActivity
 import com.blog.a.drag.ViewDragActivity
 import com.blog.a.jni.JNISampleActivity
 import com.blog.a.location.LocationActivity
-import com.blog.a.nested.NestedScrollActivity
+import com.blog.demo10.NestedScrollActivity
 import com.blog.a.transition.IndexActivity
 import com.blog.demo38.DexLoaderActivity
 import com.blog.demo39.BlogServiceActivity
@@ -49,7 +49,7 @@ class IndexActivity : BaseActivity(), SimpleAdapter.ViewHolderListener {
 
 val ITEMS = arrayOf(
     "简单定位",
-    "嵌套滑动栗子",
+    "demo10: nested scroll example",
     "可拖拽ViewDragHelper",
     "回弹效果RecyclerView",
     "矢量可绘制对象",

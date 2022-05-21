@@ -35,6 +35,8 @@
         \n,address: %4$s \n,name: %5$s</string>
     <string name="errMsg">code: %1$f errMsg: %2$s</string>
 
+    <string name="txt_nested_scroll_bg">背景View</string>
+
 
     <string name="txt_dex_class_loader">DexClassLoader</string>
     <string name="txt_dex_priority">调整加载dex顺序</string>

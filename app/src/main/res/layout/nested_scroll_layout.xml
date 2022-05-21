@@ -5,21 +5,26 @@
     xmlns:didi="http://schemas.android.com/apk/res-auto"
     >
 
-    <com.blog.a.nested.NestedViewGroup
+    <com.blog.demo10.NestedViewGroup
         android:id="@+id/dd_view_group"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        didi:header_id="@+id/t_map_view"
+        didi:header_id="@+id/view_bg"
         didi:target_id="@+id/target_layout"
         didi:inn_id="@+id/inner_rv"
         didi:header_init_top="0"
         didi:target_init_bottom="250">
 
-        <com.tencent.tencentmap.mapsdk.maps.MapView
-            android:id="@+id/t_map_view"
+        <TextView
+            android:id="@+id/view_bg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="gone"/>
+            android:gravity="center"
+            android:textColor="#f00"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:text="@string/txt_nested_scroll_bg"
+            />
 
         <LinearLayout
             android:id="@+id/target_layout"
@@ -35,7 +40,7 @@
 
         </LinearLayout>
 
-    </com.blog.a.nested.NestedViewGroup>
+    </com.blog.demo10.NestedViewGroup>
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
