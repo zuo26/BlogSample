@@ -39,6 +39,8 @@
     <string name="txt_drag">可拖拽</string>
     <string name="txt_elastic_recycler_view">当前界面弹性</string>
 
+    <string name="txt_lottie_load">URL 加载可能有点慢！</string>
+
 
     <string name="txt_dex_class_loader">DexClassLoader</string>
     <string name="txt_dex_priority">调整加载dex顺序</string>

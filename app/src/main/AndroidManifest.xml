@@ -38,7 +38,7 @@
             android:exported="false"/>
         <activity android:name="com.blog.demo17.DetailActivity"
             android:exported="false"/>
-        <activity android:name=".anim.LottieActivity"
+        <activity android:name="com.blog.demo18.LottieActivity"
             android:exported="false"/>
         <activity android:name=".jni.JNISampleActivity"
             android:exported="false"/>

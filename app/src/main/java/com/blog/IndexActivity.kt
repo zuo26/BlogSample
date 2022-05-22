@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.blog.a.BaseActivity
 import com.blog.a.R
 import com.blog.a.SimpleAdapter
-import com.blog.a.anim.LottieActivity
+import com.blog.demo18.LottieActivity
 import com.blog.demo16.VectorAnimActivity
 import com.blog.demo11.ViewDragActivity
 import com.blog.a.jni.JNISampleActivity
@@ -60,11 +60,11 @@ val ITEMS = arrayOf(
     "demo12: elastic RecyclerView",
     "demo16: AnimatedVectorDrawable",
     "demo17: Activity Transition Animation",
-    "Lottie动画",
+    "demo18: Lottie Animation",
     "Jni Sample",
     "demo38: DexClassLoader",
     "demo39: AIDL",
-    "demo40: Espresso UI 单测"
+    "demo40: Espresso UI Test"
 )
 
 val CLASS = arrayOf(
