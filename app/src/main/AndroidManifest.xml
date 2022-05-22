@@ -32,7 +32,7 @@
             android:exported="false"/>
         <activity android:name="com.blog.demo11.ViewDragActivity"
             android:exported="false"/>
-        <activity android:name=".anim.VectorAnimActivity"
+        <activity android:name="com.blog.demo16.VectorAnimActivity"
             android:exported="false"/>
         <activity android:name=".transition.IndexActivity"
             android:exported="false"/>

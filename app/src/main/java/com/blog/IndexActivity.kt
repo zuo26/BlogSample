@@ -12,7 +12,7 @@ import com.blog.a.BaseActivity
 import com.blog.a.R
 import com.blog.a.SimpleAdapter
 import com.blog.a.anim.LottieActivity
-import com.blog.a.anim.VectorAnimActivity
+import com.blog.demo16.VectorAnimActivity
 import com.blog.demo11.ViewDragActivity
 import com.blog.a.jni.JNISampleActivity
 import com.blog.a.location.LocationActivity
@@ -58,7 +58,7 @@ val ITEMS = arrayOf(
     "demo10: nested scroll example",
     "demo11: ViewDragHelper",
     "demo12: elastic RecyclerView",
-    "矢量可绘制对象",
+    "demo16: AnimatedVectorDrawable",
     "Activity过渡动画",
     "Lottie动画",
     "Jni Sample",
