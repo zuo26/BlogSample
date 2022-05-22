@@ -19,7 +19,7 @@ import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.rules.activityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
-import com.blog.a.R
+import com.blog.R
 import com.blog.demo40.CustomAdapter
 import com.blog.demo40.EspressoUiActivity
 import org.hamcrest.Description

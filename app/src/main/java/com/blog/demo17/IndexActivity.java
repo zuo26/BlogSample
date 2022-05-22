@@ -20,7 +20,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.util.Pair;
 
-import com.blog.a.R;
+import com.blog.R;
 import com.squareup.picasso.Picasso;
 
 public class IndexActivity extends AppCompatActivity {

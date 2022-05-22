@@ -9,8 +9,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.lottie.LottieAnimationView
-import com.airbnb.lottie.LottieCompositionFactory
-import com.blog.a.R
+import com.blog.R
 
 /**
  * https://github.com/airbnb/lottie-android

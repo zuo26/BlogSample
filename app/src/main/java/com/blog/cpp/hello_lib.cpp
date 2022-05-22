@@ -1,11 +1,12 @@
 #include <jni.h>
 #include <string>
 
-#include "HelloJni.h"
+#include "method2.h"
+
 extern "C" JNIEXPORT jstring JNICALL
-Java_com_blog_a_jni_HelloJni_stringFromJNI(
+Java_com_blog_cpp_HelloCMakeJni_stringFromCmakeJNI(
         JNIEnv* env,
         jobject /* this */) {
-    std::string hello = "Hello from C++";
+    std::string hello = getHelloWorld();
     return env->NewStringUTF(hello.c_str());
 }

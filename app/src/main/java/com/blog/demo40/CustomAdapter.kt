@@ -9,7 +9,7 @@ import android.view.ViewGroup
 
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.blog.a.R
+import com.blog.R
 
 open class CustomAdapter(
     private val dataSet: Array<String>,

@@ -1,7 +1,7 @@
-package com.blog.a.anim
+package com.blog.anim
 
 import android.os.Bundle
-import com.blog.a.BaseActivity
+import com.blog.BaseActivity
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader

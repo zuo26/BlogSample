@@ -3,7 +3,7 @@ package com.blog.demo40
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import com.blog.a.BaseActivity
+import com.blog.BaseActivity
 
 class EspressoUiActivity2 : BaseActivity() {
 

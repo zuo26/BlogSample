@@ -1,4 +1,4 @@
-package com.blog.a
+package com.blog
 
 import android.app.Application
 import android.content.Context

@@ -6,7 +6,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.blog.a"
+        applicationId "com.blog"
         minSdkVersion 18
         targetSdkVersion 31
         versionCode 1
@@ -22,14 +22,14 @@ android {
 
     sourceSets {
         main() {
-            jniLibs.srcDirs = ['src/main/java/com/blog/a/libs']
+            jniLibs.srcDirs = ['src/main/java/com/blog/libs']
             java.srcDirs = ['src/main/aidl', 'src/main/java']
         }
     }
 
     externalNativeBuild {
         cmake {
-            path "src/main/java/com/blog/a/cpp/CMakeLists.txt"
+            path "src/main/java/com/blog/cpp/CMakeLists.txt"
             version "3.10.2"
         }
     }

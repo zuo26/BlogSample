@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.blog.a.widget.SquareFrameLayout
+    <com.blog.support.ui.SquareFrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -15,7 +15,7 @@
             android:contentDescription="@null"
             android:scaleType="centerCrop" />
 
-    </com.blog.a.widget.SquareFrameLayout>
+    </com.blog.support.ui.SquareFrameLayout>
 
     <TextView
         android:id="@+id/textview_name"

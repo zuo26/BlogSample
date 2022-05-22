@@ -31,7 +31,6 @@
 
 package com.blog.support.logger;
 
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Editable;

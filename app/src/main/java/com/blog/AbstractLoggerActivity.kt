@@ -1,8 +1,7 @@
 package com.blog
 
 import android.os.Bundle
-import com.blog.a.BaseActivity
-import com.blog.a.R
+import com.blog.R
 import com.blog.support.logger.LogFragment
 import com.blog.support.logger.LogWrapper
 import com.blog.support.logger.Logger

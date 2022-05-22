@@ -1,4 +1,4 @@
-package com.blog.a;
+package com.blog;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.blog.R;
 
 public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.ViewHolder> {
     private String[] examples;

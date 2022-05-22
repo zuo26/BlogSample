@@ -1,4 +1,4 @@
-package com.blog.a;
+package com.blog;
 
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
@@ -25,7 +25,7 @@ public class BaseActivity extends BaseDensityActivity {
             getSupportActionBar().hide();
         }
 
-        // 地图SDK 权限
+        // 权限
         if (!hasPermissions() && Build.VERSION.SDK_INT >= M) {
             requestPermissions();
         }
@@ -43,8 +43,8 @@ public class BaseActivity extends BaseDensityActivity {
         final String[] permissions = {
                 Manifest.permission.ACCESS_FINE_LOCATION,
                 Manifest.permission.ACCESS_COARSE_LOCATION,
-                Manifest.permission.READ_PHONE_STATE,
-                Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                /*Manifest.permission.READ_PHONE_STATE,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE,*/
         };
         boolean showRationale = false;
         for (String perm : permissions) {
@@ -55,7 +55,7 @@ public class BaseActivity extends BaseDensityActivity {
             return;
         }
         new AlertDialog.Builder(this)
-                .setMessage("使用地图sdk")
+                .setMessage("简单定位示例")
                 .setCancelable(false)
                 .setPositiveButton(android.R.string.ok, (DialogInterface dialog, int which) ->
                         ActivityCompat.requestPermissions(BaseActivity.this,

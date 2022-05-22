@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.blog.a.R;
+import com.blog.R;
 
 public class VectorAnimActivity extends AppCompatActivity {
 

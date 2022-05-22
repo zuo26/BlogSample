@@ -12,7 +12,7 @@ import androidx.activity.result.contract.ActivityResultContracts.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.blog.a.R
+import com.blog.R
 
 
 class EspressoUiActivity : AppCompatActivity() {

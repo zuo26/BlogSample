@@ -3,10 +3,9 @@ package com.blog.demo11;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 
-import com.blog.a.BaseActivity;
-import com.blog.a.R;
+import com.blog.BaseActivity;
+import com.blog.R;
 
 /**
  * 可拖拽效果类。

@@ -1,4 +1,4 @@
-package com.blog.a.utils;
+package com.blog.support.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;

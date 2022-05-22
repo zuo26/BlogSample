@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.blog.a"
+    package="com.blog"
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="app.blog.service.permission" />
@@ -14,7 +14,7 @@
         tools:ignore="AllowBackup,GoogleAppIndexingWarning"
         android:theme="@style/AppTheme"
         android:requestLegacyExternalStorage="false"
-        android:name=".MyApplication">
+        android:name="com.blog.MyApplication">
 
         <meta-data
             android:name="TencentMapSDK"
@@ -40,11 +40,11 @@
             android:exported="false"/>
         <activity android:name="com.blog.demo18.LottieActivity"
             android:exported="false"/>
-        <activity android:name=".jni.JNISampleActivity"
+        <activity android:name="com.blog.jni.JNISampleActivity"
             android:exported="false"/>
-        <activity android:name=".location.LocationActivity"
+        <activity android:name="com.blog.location.LocationActivity"
             android:exported="false"/>
-        <activity android:name=".anim.StrokeOrderActivity"
+        <activity android:name="com.blog.anim.StrokeOrderActivity"
             android:exported="false"/>
         <activity android:name="com.blog.demo39.BlogServiceActivity"
             android:exported="false"/>

@@ -3,7 +3,7 @@ package com.blog.demo38
 import android.os.Bundle
 import android.widget.Button
 import com.blog.AbstractLoggerActivity
-import com.blog.a.R
+import com.blog.R
 import com.blog.demo39.TAG
 import com.blog.support.util.fileExists
 import com.blog.support.util.getTestDexDirectory

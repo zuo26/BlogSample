@@ -14,8 +14,8 @@ import androidx.core.view.ViewCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.blog.a.R;
-import com.blog.a.utils.CommonUtils;
+import com.blog.R;
+import com.blog.support.util.CommonUtils;
 
 /**
  * 嵌套滑动栗子。

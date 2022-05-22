@@ -1,4 +1,4 @@
-package com.blog.a.cpp;
+package com.blog.cpp;
 
 public class HelloCMakeJni {
     static {

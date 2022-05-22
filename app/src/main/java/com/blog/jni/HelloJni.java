@@ -1,4 +1,4 @@
-package com.blog.a.jni;
+package com.blog.jni;
 
 public class HelloJni {
     /* hello 库已经引用了 libmyJniTest.so，所以当 hello.so 加载后，myJniTest 自动就会被关联*/

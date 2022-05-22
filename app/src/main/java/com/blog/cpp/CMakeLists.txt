@@ -18,8 +18,8 @@ add_library( # 构建的库的名字
              SHARED
 
              # 库的原文件，这里与 CMakeLists.txt 同目录，直接就写 hello_lib.cpp 了
-             method2.cpp
-             hello_lib.cpp )
+        method2.cpp
+        hello_lib.cpp)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by

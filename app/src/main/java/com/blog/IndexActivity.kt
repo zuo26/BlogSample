@@ -8,14 +8,11 @@ import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.blog.a.BaseActivity
-import com.blog.a.R
-import com.blog.a.SimpleAdapter
 import com.blog.demo18.LottieActivity
 import com.blog.demo16.VectorAnimActivity
 import com.blog.demo11.ViewDragActivity
-import com.blog.a.jni.JNISampleActivity
-import com.blog.a.location.LocationActivity
+import com.blog.jni.JNISampleActivity
+import com.blog.location.LocationActivity
 import com.blog.demo10.NestedScrollActivity
 import com.blog.demo17.IndexActivity
 import com.blog.demo38.DexLoaderActivity
@@ -61,7 +58,7 @@ val ITEMS = arrayOf(
     "demo16: AnimatedVectorDrawable",
     "demo17: Activity Transition Animation",
     "demo18: Lottie Animation",
-    "Jni Sample",
+    "demo19: Jni and build so",
     "demo38: DexClassLoader",
     "demo39: AIDL",
     "demo40: Espresso UI Test"

@@ -1,4 +1,4 @@
-package com.blog.a;
+package com.blog.blog;
 
 import org.junit.Test;
 

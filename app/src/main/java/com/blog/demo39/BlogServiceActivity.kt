@@ -8,7 +8,7 @@ import android.os.IBinder
 import android.os.RemoteException
 import android.util.Log
 import android.view.View
-import com.blog.a.R
+import com.blog.R
 import com.blog.AbstractLoggerActivity
 import com.blog.service.*
 import com.blog.support.logger.Logger

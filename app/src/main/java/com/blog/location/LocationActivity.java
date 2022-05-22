@@ -1,11 +1,11 @@
-package com.blog.a.location;
+package com.blog.location;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.blog.a.BaseActivity;
-import com.blog.a.R;
+import com.blog.BaseActivity;
+import com.blog.R;
 import com.mjzuo.location.GeocodingManager;
 import com.mjzuo.location.ReverseGeocodingManager;
 import com.mjzuo.location.bean.Latlng;

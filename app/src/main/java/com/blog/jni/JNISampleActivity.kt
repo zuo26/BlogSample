@@ -1,10 +1,10 @@
-package com.blog.a.jni
+package com.blog.jni
 
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.blog.a.R
-import com.blog.a.cpp.HelloCMakeJni
+import com.blog.R
+import com.blog.cpp.HelloCMakeJni
 import java.lang.StringBuilder
 
 class JNISampleActivity : AppCompatActivity() {
