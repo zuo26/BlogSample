@@ -34,9 +34,9 @@
             android:exported="false"/>
         <activity android:name="com.blog.demo16.VectorAnimActivity"
             android:exported="false"/>
-        <activity android:name=".transition.IndexActivity"
+        <activity android:name="com.blog.demo17.IndexActivity"
             android:exported="false"/>
-        <activity android:name=".transition.DetailActivity"
+        <activity android:name="com.blog.demo17.DetailActivity"
             android:exported="false"/>
         <activity android:name=".anim.LottieActivity"
             android:exported="false"/>

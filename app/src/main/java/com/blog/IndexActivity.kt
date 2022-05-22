@@ -17,7 +17,7 @@ import com.blog.demo11.ViewDragActivity
 import com.blog.a.jni.JNISampleActivity
 import com.blog.a.location.LocationActivity
 import com.blog.demo10.NestedScrollActivity
-import com.blog.a.transition.IndexActivity
+import com.blog.demo17.IndexActivity
 import com.blog.demo38.DexLoaderActivity
 import com.blog.demo39.BlogServiceActivity
 import com.blog.demo40.EspressoUiActivity
@@ -59,7 +59,7 @@ val ITEMS = arrayOf(
     "demo11: ViewDragHelper",
     "demo12: elastic RecyclerView",
     "demo16: AnimatedVectorDrawable",
-    "Activity过渡动画",
+    "demo17: Activity Transition Animation",
     "Lottie动画",
     "Jni Sample",
     "demo38: DexClassLoader",

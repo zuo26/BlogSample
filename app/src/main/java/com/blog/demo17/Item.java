@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.blog.a.transition;
+package com.blog.demo17;
 
 /**
  * Represents an Item in our application. Each item has a name, id, full size image url and
