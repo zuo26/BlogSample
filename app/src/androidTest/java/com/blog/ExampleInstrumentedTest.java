@@ -1,4 +1,4 @@
-package com.blog.blog;
+package com.blog;
 
 import android.content.Context;
 

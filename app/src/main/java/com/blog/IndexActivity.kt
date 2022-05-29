@@ -18,6 +18,7 @@ import com.blog.demo17.IndexActivity
 import com.blog.demo38.DexLoaderActivity
 import com.blog.demo39.BlogServiceActivity
 import com.blog.demo40.EspressoUiActivity
+import com.blog.demo41.StrokeOrderActivity
 
 class IndexActivity : BaseActivity(), SimpleAdapter.ViewHolderListener {
 
@@ -61,7 +62,8 @@ val ITEMS = arrayOf(
     "demo19: Jni and build so",
     "demo38: DexClassLoader",
     "demo39: AIDL",
-    "demo40: Espresso UI Test"
+    "demo40: Espresso UI Test",
+    "demo41: Stroke Order Animation"
 )
 
 val CLASS = arrayOf(
@@ -75,5 +77,6 @@ val CLASS = arrayOf(
     JNISampleActivity::class.java,
     DexLoaderActivity::class.java,
     BlogServiceActivity::class.java,
-    EspressoUiActivity::class.java
+    EspressoUiActivity::class.java,
+    StrokeOrderActivity::class.java
 )

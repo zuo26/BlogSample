@@ -64,6 +64,9 @@
     <string name="txt_open_dialog">open dialog</string>
     <string name="txt_show_dialog_item">dialog item</string>
 
+    <string name="txt_load_svg_six">Draw \"六\"</string>
+    <string name="txt_load_svg_one">Draw \"一\"</string>
+
     <string-array name="bodies_of_water">
         <item>Pacific Ocean</item>
         <item>Atlantic Ocean</item>
