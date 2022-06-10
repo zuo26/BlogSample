@@ -48,6 +48,7 @@ android {
 
     packagingOptions {
         pickFirst 'lib/arm64-v8a/libmyJniTest.so'
+        pickFirst 'lib/armeabi-v7a/libmyJniTest.so'
     }
 
 }
