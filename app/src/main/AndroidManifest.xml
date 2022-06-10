@@ -3,6 +3,10 @@
     package="com.blog"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <queries>
+        <package android:name="com.blog.service"/>
+    </queries>
+
     <uses-permission android:name="app.blog.service.permission" />
 
     <application
