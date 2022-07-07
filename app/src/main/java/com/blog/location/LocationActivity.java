@@ -72,9 +72,9 @@ public class LocationActivity extends BaseActivity {
 
             @Override
             public void onFail(String msg) {
-                Log.e(LOG_TAG,"error:" + msg);
-                tvSimpleAd.setText(String.format(getResources().getString(R.string.errMsg)
-                        , -1, msg));
+                final String e = "error: " + msg;
+                Log.e(LOG_TAG, e);
+                tvSimpleAd.setText(e);
             }
         });
     }
